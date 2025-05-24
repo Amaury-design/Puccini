@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+  --primary-color: #cd291e;
+  --secondary-color: #fdb912;
+  --light-color: #fff9ee;
+  --dark-color: #231f20;
+  --accent-color: #316131;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-3 text-white transition-all duration-300 rounded-lg bg-accent-red hover:scale-105;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+} 
