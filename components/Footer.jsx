@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="space-y-2">
               <h3 className="text-lg font-semibold text-white">Adresse</h3>
               <p>2 rue de Colombes</p>
-              <p>92700 Colombes, France</p>
+              <p>92400 Courbevoie, France</p>
             </div>
             <p>Tél: (123) 456-7890</p>
             <p>Email: info@puccini.com</p>

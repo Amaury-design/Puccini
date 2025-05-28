@@ -75,7 +75,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             </div>
             <div>
               <p className="text-sm text-gray-600">Adresse</p>
-              <p className="font-semibold">2 rue de Colombes<br />92700 Colombes, France</p>
+              <p className="font-semibold">2 rue de Colombes<br />92400 Courbevoie, France</p>
             </div>
           </div>
 

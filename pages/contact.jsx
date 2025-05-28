@@ -26,7 +26,7 @@ export default function Contact() {
                     <MapPin className="text-accent-red shrink-0" />
                     <div>
                       <h3 className="font-medium">Adresse</h3>
-                      <p className="text-custom-grey/70">2 rue de Colombes<br />92700 Colombes, France</p>
+                      <p className="text-custom-grey/70">2 rue de Colombes<br />92400 Courbevoie, France</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">

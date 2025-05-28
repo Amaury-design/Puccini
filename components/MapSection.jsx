@@ -38,28 +38,22 @@ const MapSection = () => {
   };
 
   return (
-    <section className="py-16 bg-light-white">
+    <section className="section-padding bg-light-white">
       <div className="container">
         <h2 className="text-3xl font-lilita text-custom-grey text-center mb-8">
           Notre Restaurant
         </h2>
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="md:w-1/2">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-medium text-custom-grey mb-4">Adresse</h3>
-              <p className="text-custom-grey/70 mb-2">15 rue Jules Lefevres</p>
-              <p className="text-custom-grey/70 mb-4">75001 Paris, France</p>
-              
-              <h3 className="text-xl font-medium text-custom-grey mb-4">Horaires d'ouverture</h3>
-              <div className="space-y-2">
-                <p className="text-custom-grey/70">Lundi - Vendredi: 11h30 - 22h30</p>
-                <p className="text-custom-grey/70">Samedi - Dimanche: 11h30 - 23h30</p>
-              </div>
-            </div>
-          </div>
-          <div className="md:w-1/2">
-            <div id="map" className="w-full h-[400px] rounded-lg shadow-md"></div>
-          </div>
+        <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.1234567890123!2d2.2545!3d48.9234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3e4b3b3b3b%3A0x1234567890abcdef!2s2%20Rue%20de%20Colombes%2C%2092400%20Courbevoie!5e0!3m2!1sfr!2sfr!4v1234567890!5m2!1sfr!2sfr"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="absolute inset-0"
+          />
         </div>
       </div>
     </section>
